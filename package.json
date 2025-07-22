@@ -1,0 +1,37 @@
+{
+  "name": "mini_health_tracker",
+  "version": "1.0.0",
+  "description": "This project is Mini Health Tracker Project for Patient",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohansoftexer/Mini_Health_Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohansoftexer/Mini_Health_Tracker/issues"
+  },
+  "homepage": "https://github.com/mohansoftexer/Mini_Health_Tracker#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^6.0.0",
+    "bull": "^4.16.5",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "pdfkit": "^0.17.1",
+    "pug": "^3.0.3"
+  }
+}
